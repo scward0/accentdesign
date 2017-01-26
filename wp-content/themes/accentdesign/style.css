@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body, html {
+   height: 100%;
+}
+@-moz-keyframes logo-fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes logo-fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo-fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.no-max {
+  max-width: 100%;
+}
+
+.no-max.pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body {
+  font-size: 62.5%;
+  letter-spacing: 0.025em;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif !important;
+  line-height: 1.15em;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 19px !important;
+  height: 100px;
+}
+header h1 {
+  float: left;
+  margin: 0;
+  max-width: 80%;
+}
+
+#header{
+  padding-top: 20px;
+}
+
+
+/* navigation */
+#mainnav {
+  display: block;
+  float: right;
+  -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+#mainnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mainnav li {
+  float: left;
+  padding: 0 14px;
+}
+#mainnav ul ul li {
+  padding: 0;
+}
+#mainnav ul li a {
+  position: relative;
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+}
+#mainnav ul li a:hover {
+  color: #d65050;
+}
+#mainnav ul ul a {
+  width: 180px;
+}
+#mainnav > ul > li:last-child {
+  padding-right: 0;
+}
+#mainnav ul li {
+  position: relative;
+}
+#mainnav ul li ul {
+  width: 180px;
+  position: absolute;
+  top: 100%;
+  left: initial;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-border-radius: 0 0 2px 2px;
+     -moz-border-radius: 0 0 2px 2px;
+     -o-border-radius: 0 0 2px 2px;
+      border-radius: 0 0 2px 2px;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+#mainnav ul li ul ul {
+  top: 0;
+}
+#mainnav ul li ul:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+#mainnav ul li ul ul:after {
+  top: 0;
+}
+#mainnav ul li ul li ul {
+  left: 100%;
+}
+#mainnav li:hover > ul {
+    opacity: 1;
+    padding-top: 10px;
+    visibility: visible;
+    left: auto;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+#mainnav li:hover > ul ul {
+  padding-top: 0;
+  left: 100%;
+}
+#mainnav .sub-menu {
+  z-index: 99999;
+}
+#mainnav .sub-menu li a {
+  color: #fff;
+  display: block;
+  line-height: 30px;
+  background: #1c1c1c;
+  padding: 0 18px;
+  border-top: 1px solid #252525;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+#mainnav .sub-menu li:hover > a {
+  color: #fff;
+}
+#mainnav li:hover > .sub-menu > li > a {
+  padding: 8px 18px;
+}
+
+
+.slicknav_menu{
+  padding: 5%;
+}
+
+.slicknav_nav{
+  text-align: center;
+  height: 1000px;
+  line-height: 800%;
+}
+
+.cap{
+  text-transform: uppercase;
+}
+
+.headline{
+  background-color:rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 5%;
+}
+
+@media screen and (max-width: 768px){
+  .headline{
+    top: 55%;
+    padding: 1%;;
+  }
+}
+
+
+.project-thumbnail{
+  padding: 5%;
+  }
+
+
+
+.description p{
+  color: white;
+  text-align: center;
+}
+
+.social-icon{
+  padding: 10px;
+}
+
+.footer-item{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 640px){
+  .footer-item{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.scroll-header{
+  background: black;
+  opacity: 0.8;
+}
+
+.transition {
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.prev-post a{
+  color: white;
+  /*background: url('http://www.clker.com/cliparts/Z/n/k/Z/y/j/left-arrow-gray-hi.png') no-repeat;*/
+}
+
+.next-post a{
+  color: white;
+  /*display: none;
+  width: 100px;
+  height: 100px;*/
+  /*background: url('http://www.clker.com/cliparts/V/1/Z/A/h/U/left-arrow-right-hi.png') no-repeat;*/
+}
