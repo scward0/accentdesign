@@ -21,7 +21,7 @@
 
         }
         </style>
-        <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/new_accent_logo-1.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
+        <a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/new_accent_logo-1.png" width="200" alt="<?php bloginfo('name'); ?>"/></a>
         <nav id="mainnav" class="mainnav" role="navigation">
           <?php
             $defaults = array(

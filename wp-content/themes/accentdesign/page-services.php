@@ -14,7 +14,7 @@
         <br>
       </div>
       <div class="arrow">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/arrow-down@2x.png" alt="Arrow Down" width="100px" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/arrow-down@2x.png" alt="Arrow Down" width="100px" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
       </div>
     </div>
   </div>
@@ -30,24 +30,24 @@
     </div>
     <div class="row" style="padding: 3%;">
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/1476580_orig.jpg" alt="Platinum Cabinetry" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/1476580_orig.jpg" alt="Platinum Cabinetry" />
       </div>
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/6912167_orig.jpg" alt="" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/6912167_orig.jpg" alt="" />
       </div>
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/6025344_orig.jpg" alt="" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/6025344_orig.jpg" alt="" />
       </div>
     </div>
     <div class="row" style="padding: 3%;">
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/6258217_orig.jpg" alt="" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/6258217_orig.jpg" alt="" />
       </div>
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/895803_orig.gif" alt="" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/895803_orig.gif" alt="" />
       </div>
       <div class="columns small-12 medium-6 large-4">
-        <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/8073838_orig.png" alt="" />
+        <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/8073838_orig.png" alt="" />
       </div>
     </div>
   </div>

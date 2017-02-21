@@ -19,6 +19,6 @@ $(document).foundation();
         $('.arrow').show();// It's just if you want to show back the element if we're back on top
         $('#header').removeClass('scroll-header');
     }
-});
+  });
 
 });

@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="arrow">
-          <img src="http://redirectdevhosting.com/wp-content/uploads/2016/12/arrow-down@2x.png"  width="100px" alt="Arrow Down" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
+          <img src="http://198.58.102.147/accentdesign/wp-content/uploads/2016/12/arrow-down@2x.png"  width="100px" alt="Arrow Down" style="position: absolute; top: 90%; left: 50%; transform: translateX(-50%) translateY(-50%);" />
         </div>
       </div>
     </div>
