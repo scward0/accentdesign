@@ -32,7 +32,9 @@
   </div>
 
 </footer>
-
+<script src"http://198.58.102.147/accentdesign//wp-content/themes/accentdesign/js/app.js"></script>
+<script src"http://198.58.102.147/accentdesign//wp-content/themes/accentdesign/js/main.js"></script>
+<script src"http://198.58.102.147/accentdesign//wp-content/themes/accentdesign/js/foundation.min.js"></script>
 <?php wp_footer(); ?>
 
 </body>
